@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Login</title>
+    <link rel="website icon" type="svg" href="../visual/imagens/log-in.svg">
+    <link rel="stylesheet" href="../visual/style.css">
+    <script src="../script/main.js"></script>
+</head>
+<body>
+    <section class="sec-principal">
+        <section id="sec-imagem" class="flex centro">
+            <div id="div-imagem">
+                <img src="../visual/imagens/login.png" alt="imagem de login" id="tamanho-imagem">
+            </div>
+        </section>
+        <section id="sec-campos" class="flex centro">
+            <div id="div-campos">
+                <div id="div-campos2">
+                    <label for="campo-usuario" class="flex centro" id="campo1">
+                        <div class="margem">Usuário: </div> <input type="text" name="usuario" id="usuario" class="tamanho-input">
+                    </label>
+                    <label for="campo-senha" class="flex centro" id="campo2">
+                        <div class="margem" id="campo">Senha: </div> <input type="password" name="senha" id="senha" class="tamanho-input">
+                    </label>
+                    <div class="flex centro">
+                        <button type="button" id="button" onclick="login()">Continuar</button>
+                    </div>
+                </div>
+            </div> 
+        </section>
+    </section>
+</body>
+</html>
